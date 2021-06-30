@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brick Game</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
+        rel="stylesheet"
+      />
+  </head>
+
+  <body>
+
+    <!-- <div class="sound">
+      <img src="img/SOUND_ON.png" alt="" id="sound" />
+    </div> -->
+
+    <div id="gameover">
+      <img src="/naruto_img/win.png" alt="" id="youwon" />
+      <img src="./naruto_img/over.png" alt="" id="youlose" />
+      <div id="restart">Play Again!</div>
+    </div>
+
+    <canvas id="breakout" height="600" width="1280"></canvas>
+
+    <div class="intro">
+      <div class="intro-text">
+          <h1 class="hide">
+              <span class="text">Perseverance Team</span>
+          </h1>
+          <h1 class="hide">
+              <span class="text">Brick Game</span>
+          </h1>
+      </div>
+  </div>
+
+  <div class="slider"></div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" 
+  integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" 
+  crossorigin="anonymous">
+  </script>
+
+    <script src="components.js"></script>
+    <script src="game.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
